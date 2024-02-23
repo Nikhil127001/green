@@ -1,0 +1,57 @@
+
+
+.CardOuter{
+    height : 450px;
+    width :  400px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px;
+}
+
+.image{
+    width: 100%;
+    max-height: 260px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.textContainer{
+    width : 96%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 15px ;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.descContainer{
+    width : 96%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size:medium;
+    padding-left: 15px ;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.Button{
+    background-color: #418B24;
+    padding: 5px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.Button:hover{
+    cursor: pointer;
+}

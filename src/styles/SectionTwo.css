@@ -1,0 +1,27 @@
+
+.outer{
+    position: relative;
+}
+.textOuterTwo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height : 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.crouselImgTwo{
+    width: 100%;
+    height : 300px;
+    z-index: -1;
+}
+
+.displayTextTwo{
+    font-size: 40px;
+color: white;
+z-index: 2;
+left: 0;
+}

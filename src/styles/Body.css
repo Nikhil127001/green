@@ -1,0 +1,63 @@
+.crouselImg{
+    margin-top: 80px;
+    width: 100%;
+    height : 650px;
+    z-index: -1;
+}
+
+.textOuter{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height : 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayText{
+    font-size: 100px;
+    color: white;
+    z-index: 2;
+    left: 0;
+}
+
+@media screen and (max-width : 600px) {
+    .displayText{
+        font-size: 40px;
+        
+    }
+}
+
+.heading {
+    color: white;
+}
+
+.CardContainer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E7E2;
+}
+
+.ButtonTwo{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    font-size: medium;
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.ButtonTwo:hover{
+    cursor: pointer;
+}

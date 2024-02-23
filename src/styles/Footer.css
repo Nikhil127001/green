@@ -1,0 +1,131 @@
+
+.FooterOuter{
+    position: relative;
+}
+.ImgFooter{
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+}
+.LinksContainer{
+    position: absolute;
+    top: 0;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.footerLinks{
+    width : 300px;
+    height : 150px;
+    font-size: large;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footerHeadingStyle{
+    font-size: 30px;
+}
+
+@media screen and (max-width : 685px){
+    .footerHeadingStyle{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 685px){
+    .footerLinks{
+        width : 100px;
+    }
+}
+
+@media screen and (max-width : 685px){
+    .footerLinks{
+        font-size: small;
+    }
+}
+
+.inputBox{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+@media screen and (max-width : 685px) {
+    .inputBox{
+        padding: 2px;
+        width : 70px;
+    }
+}
+
+.goButton{
+    height : 40px;
+    width : 40px;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+@media screen and (max-width : 685px) {
+    .goButton{
+        height: 20px;
+        width: 107px
+    }
+}
+@media screen and (max-width : 685px) {
+    .inputBox{
+        padding: 2px;
+        width : 100px;
+    }
+}
+
+.socialLinks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width : 600px) {
+    .socialLinks{
+        flex-direction: column;
+    }
+    
+}
+
+.socialLinksLine{
+    width: 40%;
+    color: yellow;
+    font-weight: bold;
+}
+.socialIcons{
+    width : 40%;
+}
+
+@media screen and (max-width : 600px) {
+    .socialIcons{
+        width : 100%;
+    }
+}
+@media screen and (max-width : 600px) {
+    .socialLinksLine{
+        width: 100%;
+        color: yellow;
+        font-weight: bold;
+    }
+}
+
+.iconsStyle{
+    font-size: 30px;
+    margin: 10px;
+    color: yellow;
+}
+
+::placeholder {
+    color: white;
+  }
